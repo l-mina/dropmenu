@@ -1,0 +1,54 @@
+
+.dropdown-icon {
+    display: flex;
+    gap: 20px;
+}
+
+svg {
+    fill: black;
+    width: 30px;
+    padding:1px;
+    background-color: snow;
+    border-radius: 5px;
+}
+
+svg:hover {
+    fill: snow;
+    background-color: black;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin: 2% 0;
+    padding: 5px 0;
+    background-color: red;
+    max-width: 150px;
+    min-height: 200px;
+    text-align: center;
+}
+
+.dropdown li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: purple;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+
+.dropdown li:hover {
+    background-color: red;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    padding: 0;
+    z-index: 1;
+    display: none;
+    position: absolute;
+}
